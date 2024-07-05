@@ -13,7 +13,7 @@ const ReviewCard = ({ reviews }) => {
    // console.log(givenDate, currentDate)
     const timeDifference = currentDate - givenDate;
     const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    setDate(daysDifference + " " + "date");
+    setDate(daysDifference + " " + "days");
 
   }
   )
